@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#17102b"><title>The Letter Room</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head>
+<body data-page="letters">
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">✳</span> a little something</a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="site-nav"><a href="index.html">Home</a><a href="memories.html">Memories</a><a class="active" href="letters.html">Letters</a><a href="archive.html">The archive</a><a class="nav-special" href="final.html">One last thing <span>↗</span></a></nav></header>
+  <main class="inner-page">
+    <section class="page-hero section-wrap letters-hero"><p class="eyebrow"><span class="eyebrow-dot"></span> CHAPTER TWO · THE LETTER ROOM</p><h1>Words that<br><em>deserve a place.</em></h1><p class="hero-lede">Some things get lost in a quick text. These notes can take their time.</p><div class="floating-heart">♥</div></section>
+    <section class="section-wrap content-section">
+      <div class="section-heading heading-row"><div><p class="eyebrow">OPEN WHEN READY</p><h2>A few words <em>for you.</em></h2></div><p class="section-aside">Click any envelope. Emotional side effects may include smiling at your screen.</p></div>
+      <div class="letters-grid" id="letters-grid"></div>
+      <!-- <p class="edit-hint">✎ Edit the <code>letters</code> list in <code>script.js</code> to add real messages from friends and family.</p> -->
+    </section>
+    <section class="paper-quote section-wrap"><span class="handwritten">A note to keep close</span><p>“You don't have to do something extraordinary to be important to the people who love you.”</p><span class="quote-credit">SAVE THIS SOMEWHERE IN YOUR BRAIN</span></section>
+    <section class="page-next section-wrap"><span class="handwritten">Ready for the nonsense?</span><a class="button button-dark" href="archive.html">Open the unfiltered archive <span>↗</span></a></section>
+  </main>
+  <div class="modal" id="letter-modal" aria-hidden="true"><div class="modal-backdrop" data-close-modal></div><div class="modal-panel letter-modal-panel" role="dialog" aria-modal="true" aria-label="Letter"><button class="modal-close" data-close-modal aria-label="Close">×</button><div id="letter-modal-content"></div></div></div>
+  <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-mark">✳</span> a little something</a><span>Written with love, read whenever. <span class="footer-heart">♥</span></span><span class="footer-page">03 / 05</span></footer>
+</body>
+</html>
