@@ -1,17 +1,17 @@
 /* Birthday scrapbook theme: electric pink, purple, lemon and blue */
 :root {
-  --navy: #17102b;
-  --navy-2: #261442;
-  --slate: #392052;
-  --pink: #ff4fa3;
-  --pink-light: #ffb8dc;
-  --paper: #fff0f7;
-  --paper-deep: #ffcce5;
-  --ink: #3c1740;
-  --muted: #c0a9d0;
-  --yellow: #ffe45e;
-  --blue: #6ee7ff;
-  --purple: #b58aff;
+  --navy: #6e1427;
+  --navy-2: #8f1932;
+  --slate: #b91c35;
+  --pink: #e52e4d;
+  --pink-light: #ff9aa9;
+  --paper: #fff5eb;
+  --paper-deep: #ffe0d6;
+  --ink: #421520;
+  --muted: #b98b96;
+  --yellow: #e9b44c;
+  --blue: #ffb3a7;
+  --purple: #c77d91;
   --serif: "Playfair Display", Georgia, serif;
   --sans: "DM Sans", sans-serif;
   --script: "Caveat", cursive;

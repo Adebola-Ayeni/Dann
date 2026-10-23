@@ -5,8 +5,8 @@
   - Replace photo URLs and captions with your own.
   - Edit letters and funFacts to use real messages and inside jokes.
 */
-const recipientName = "Your Name";
-const senderName = "Your Friend";
+const recipientName = "NIEL";
+const senderName = "JANET";
 
 const videos = [
   {
@@ -44,6 +44,7 @@ const videos = [
 ];
 
 const photos = [
+  { image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=85", caption: "The people who make the ordinary feel special.", date: "THE PEOPLE" },
   { image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=85", caption: "The people who make the ordinary feel special.", date: "THE PEOPLE" },
   { image: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=900&q=85", caption: "A reason to celebrate, and then some.", date: "A GOOD DAY" },
   { image: "https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=900&q=85", caption: "Proof that the best memories are rarely planned.", date: "THE MOMENTS" },
