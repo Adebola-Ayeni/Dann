@@ -294,7 +294,13 @@ h2 em {
   left: 50px;
   transform: rotate(5deg);
 }
-
+.photo-card-main video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
 .photo-caption {
   font: 22px var(--script);
   display: block;
