@@ -10,73 +10,181 @@ const senderName = "JANET";
 
 const videos = [
   {
-    title: "A little something from your people",
-    person: "Everyone who made this",
-    group: "The birthday film",
-    url: "",
-    thumbnail: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1400&q=85",
-    description: "A collection of voices, wishes, and memories made just for you."
+    title: "A Birthday Message",
+    person: "Birthday Wishes",
+    group: "BIRTHDAY MESSAGES",
+    url: "https://www.youtube.com/embed/nYVt-ISP8Kg",
+    thumbnail: "https://img.youtube.com/vi/nYVt-ISP8Kg/hqdefault.jpg",
+    description: "Another special birthday message."
+  },
+
+
+  {
+    title: "A Birthday Message",
+    person: "Birthday Wishes",
+    group: "BIRTHDAY MESSAGES",
+    url: "https://www.youtube.com/embed/ma4P94OFYVU",
+    thumbnail: "https://img.youtube.com/vi/ma4P94OFYVU/hqdefault.jpg",
+    description: "Another special birthday message."
+  },
+
+
+  {
+    title: "A Birthday Message",
+    person: "Birthday Wishes",
+    group: "BIRTHDAY MESSAGES",
+    url: "https://www.youtube.com/embed/KPNVomqXI8U",
+    thumbnail: "https://img.youtube.com/vi/KPNVomqXI8U/hqdefault.jpg",
+    description: "Another special birthday message."
   },
   {
-    title: "From the day ones",
-    person: "Your friends",
-    group: "The people who know too much",
-    url: "",
-    thumbnail: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=85",
-    description: "The people who have been there for the plot twists."
+    title: "A Birthday Message",
+    person: "Birthday Wishes",
+    group: "BIRTHDAY MESSAGES",
+    url: "https://www.youtube.com/embed/bzVHShZnNZQ",
+    thumbnail: "https://img.youtube.com/vi/bzVHShZnNZQ/hqdefault.jpg",
+    description: "Another special birthday message."
+  },
+
+  {
+    title: "A Birthday Message",
+    person: "Birthday Wishes",
+    group: "BIRTHDAY MESSAGES",
+    url: "https://www.youtube.com/embed/-Pk89B7GRAU",
+    thumbnail: "https://img.youtube.com/vi/-Pk89B7GRAU/hqdefault.jpg",
+    description: "Another special birthday message."
+  },
+
+  {
+    title: "A Birthday Message",
+    person: "Birthday Wishes",
+    group: "BIRTHDAY MESSAGES",
+    url: "https://www.youtube.com/embed/2zJWdRNddzM",
+    thumbnail: "https://img.youtube.com/vi/2zJWdRNddzM/hqdefault.jpg",
+    description: "Another special birthday message."
+  },
+
+  {
+    title: "A Birthday Message",
+    person: "Birthday Wishes",
+    group: "BIRTHDAY MESSAGES",
+    url: "https://www.youtube.com/embed/nC-4CwmRuxw",
+    thumbnail: "https://img.youtube.com/vi/nC-4CwmRuxw/hqdefault.jpg",
+    description: "Another special birthday message."
+  },
+
+  {
+    title: "A Birthday Message",
+    person: "Birthday Wishes",
+    group: "BIRTHDAY MESSAGES",
+    url: "https://www.youtube.com/embed/6Uq9_m1DNEg",
+    thumbnail: "https://img.youtube.com/vi/6Uq9_m1DNEg/hqdefault.jpg",
+    description: "Another special birthday message."
+  },
+
+
+  {
+    title: "A Birthday Message",
+    person: "Birthday Wishes",
+    group: "BIRTHDAY MESSAGES",
+    url: "https://www.youtube.com/embed/5nekPLBGGbg",
+    thumbnail: "https://img.youtube.com/vi/5nekPLBGGbg/hqdefault.jpg",
+    description: "Another special birthday message."
+  },
+
+  {
+    title: "A Birthday Message",
+    person: "Birthday Wishes",
+    group: "BIRTHDAY MESSAGES",
+    url: "https://www.youtube.com/embed/bq3-9pEdjKo",
+    thumbnail: "https://img.youtube.com/vi/bq3-9pEdjKo/hqdefault.jpg",
+    description: "Another special birthday message."
+  },
+
+  {
+    title: "A Birthday Message",
+    person: "Birthday Wishes",
+    group: "BIRTHDAY MESSAGES",
+    url: "https://www.youtube.com/embed/UNV0nHzaQiw",
+    thumbnail: "https://img.youtube.com/vi/UNV0nHzaQiw/hqdefault.jpg",
+    description: "A special birthday message."
+  },
+
+  {
+    title: "A Birthday Message",
+    person: "Birthday Wishes",
+    group: "BIRTHDAY MESSAGES",
+    url: "https://www.youtube.com/embed/VDbbxh6NvuI",
+    thumbnail: "https://img.youtube.com/vi/VDbbxh6NvuI/hqdefault.jpg",
+    description: "Another special birthday message."
   },
   {
-    title: "A message from home",
-    person: "Your family",
-    group: "With love",
-    url: "",
-    thumbnail: "https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=900&q=85",
-    description: "A little reminder of the people who will always be in your corner."
+    title: "A Birthday Message",
+    person: "Birthday Wishes",
+    group: "BIRTHDAY MESSAGES",
+    url: "https://www.youtube.com/embed/W6gSBcpfJZs",
+    thumbnail: "https://img.youtube.com/vi/W6gSBcpfJZs/hqdefault.jpg",
+    description: "Another special birthday message."
   },
-  {
-    title: "One more thing...",
-    person: "Someone special",
-    group: "A little surprise",
-    url: "",
-    thumbnail: "https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=900&q=85",
-    description: "A message saved for this moment."
-  }
+
+
 ];
 
 const photos = [
-  { image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=85", caption: "The people who make the ordinary feel special.", date: "THE PEOPLE" },
-  { image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=85", caption: "The people who make the ordinary feel special.", date: "THE PEOPLE" },
-  { image: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=900&q=85", caption: "A reason to celebrate, and then some.", date: "A GOOD DAY" },
-  { image: "https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=900&q=85", caption: "Proof that the best memories are rarely planned.", date: "THE MOMENTS" },
-  { image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=900&q=85", caption: "More chapters still to come.", date: "WHAT'S NEXT" },
-  { image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=900&q=85", caption: "Good people. Questionable decisions. Great stories.", date: "THE ARCHIVE" },
-  { image: "https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=900&q=85", caption: "Keep this one somewhere in your memory.", date: "A LITTLE KEEPSAKE" }
+
+  { image: "images/IMG_9783.JPG.jpeg", caption: "There's still so much ahead of you.", date: "THE NEXT CHAPTER" },
+
+  { image: "images/WhatsApp Image 2026-10-26 at 20.10.30.jpeg", caption: "A little moment worth keeping.", date: "A MOMENT IN TIME" },
+
+  { image: "images/IMG_8787.JPG.jpeg", caption: "One more reason to celebrate you.", date: "THE CELEBRATION" },
+
+  { image: "images/IMG_5540.JPG.jpeg", caption: "Just you, being you.", date: "IN YOUR ELEMENT" },
+
+  { image: "images/IMG_8481.JPG.jpeg", caption: "Some moments deserve a place here.", date: "FOR THE MEMORIES" },
+
+  { image: "images/IMG_5403.JPG.jpeg", caption: "Here's to everything that makes you, you.", date: "THE PERSON YOU ARE" },
+
+  { image: "images/WhatsApp Image 2026-10-26 at 20.10.52 (1).jpeg", caption: "A face worth celebrating, today and always.", date: "THE BIRTHDAY BOY" },
+
+  { image: "images/WhatsApp Image 2026-10-26 at 20.10.52.jpeg", caption: "A little reminder of how far you've come.", date: "YOUR JOURNEY" }
 ];
 
 const letters = [
   {
-    category: "FROM HOME", author: "Your family", title: "A letter from home",
-    teaser: "For all the things we don't say often enough.",
-    body: "Happy birthday!\n\nToday is a good excuse to remind you how loved you are. We are proud of the person you are becoming, and we hope this next chapter brings you peace, joy, good health, and plenty of reasons to smile.\n\nNo matter where life takes you, remember that you have people in your corner. Keep growing, keep being yourself, and keep making room for the things that matter.\n\nWith all our love,",
-    signature: "Your people, always", style: "pink"
+    category: "FRIENDS",
+    author: "Roshe",
+    title: "A Letter from Roshe ❤️",
+    teaser: "For the advice, the laughter, and the space to be yourself.",
+    body: "Happy Birthday, Daniellllllllllllll! ❤️🎉\n\nI probably don't tell you enough, but I'm genuinely so grateful to have you in my life. You're such a funny person 😂, you're really cool, and of course, you have impeccable style 🌚❤️.\n\nThank you for the numerous pieces of advice, for the corrections, for the honest conversations, and for never holding back on me, even when it's not necessarily what I want to hear. Thank you for caring enough to tell me the truth and for being someone I can learn from. I might not always say it, but I appreciate it more than you know.\n\nThank you for making it so easy for me to be myself around you. Thank you for creating a space where I don't feel like I have to pretend to be someone I'm not. Being able to show up as my true self around someone is something I don't take for granted, and I'm so grateful that I have that with you. 🥹❤️\n\nI enjoyed this summer so much, and a huge part of that was having you around. From all the random conversations and laughter to working together, you've made so many moments more enjoyable. I loveeeee working with you, both at KiddiesDroid and at church, and I'm glad I get to learn from you in these different spaces.\n\nI love you so much, Daniel! Thank you for being you, and thank God for the privilege of knowing you. I hope this new chapter brings you so much goodness because you truly deserve it.",
+    signature: "With love, Roshe ❤️",
+    style: "pink"
   },
   {
-    category: "FROM THE DAY ONES", author: "The crew", title: "A note from the group chat",
-    teaser: "We tried to be serious. It lasted almost a minute.",
-    body: "Happy birthday, legend.\n\nThanks for the laughs, the stories, the questionable plans, and the memories that somehow get funnier every time we retell them.\n\nMay this new year bring you bigger wins, better stories, and just enough common sense to keep the rest of us entertained.",
-    signature: "The usual suspects", style: "yellow"
+    category: "FRIENDS",
+    author: "Balikis",
+    title: "A Letter from Crowned Rosh",
+    teaser: "For the creative mind who makes loving people look effortless.",
+    body: "Happy Birthday Daniel 🎊\nMr Ehiem, Odogwu of Aphos Media\n\nI know as you are reading this message you are smiling.\n\nYou are one of the creative minds I know.\n\nThank you for being real. The way you care for people around you, I always wonder how can one person be this loving?\n\nAs you step into this new age, I pray you are taking over all over. May the presence of God cause abundance to follow you.\n\nI just want to say I love you and I celebrate you greatly.\n\nBest regards,",
+    signature: "Crowned Rosh, in your voice ❤️",
+    style: "pink"
   },
   {
-    category: "A PERSONAL NOTE", author: senderName, title: "Something I wanted you to know",
-    teaser: "Some things deserve more than a quick text.",
-    body: "Happy birthday, my guy.\n\nI'm glad life gave us a friendship worth celebrating. I appreciate the memories we've made, the conversations, the laughs, and all the little moments that probably didn't seem important at the time but became part of the story.\n\nI hope this next chapter brings you closer to the things you care about. I hope you find good people, meaningful opportunities, and plenty of reasons to be proud of how far you've come.\n\nThanks for being you. Here's to more life, more memories, and more chapters still to come.",
-    signature: senderName, style: "pink"
+    category: "GEE",
+    author: "Genjutsu",
+    title: "Back When We Grinded Camos 😭",
+    teaser: "From grinding camos together to your unnecessary love for the PP Bizon.",
+    body: "Happy birthday, Daniel! You've always been a wonderful person, and I've learnt a lot from you.\n\nRemember those times we used to grind camos together? Those were the days 😭😂. And your unnecessary love for the PP Bizon will never not be funny 😭.\n\nThank you for always being there. I genuinely appreciate you, and I'm glad to have someone like you in my life.\n\nHappy birthday once again! ❤️",
+    signature: "Genjutsu",
+    style: "pink"
   },
   {
-    category: "FOR THE ROAD AHEAD", author: "A little reminder", title: "Read this when you need it",
-    teaser: "A small reminder for some future day.",
-    body: "You have made it through every strange, difficult, beautiful chapter that brought you here.\n\nGive yourself credit for the progress nobody else sees. Keep the people who genuinely care about you close, keep learning, and don't forget to enjoy the life you're working so hard to build.\n\nThere is still so much ahead of you.",
-    signature: "Keep going", style: "yellow"
+    category: "FRIENDS",
+    author: "Mofe",
+    title: "A Birthday Note from Mofe",
+    teaser: "For the person who puts his heart into everything he does.",
+    body: "You’re genuinely such an amazing person, and the way you put your heart into the things you do is so admirable. You took my birthday pictures and delivered oo 😂🤭, and I’m still so grateful!\n\nYou deserve all the good things life has to offer, and I pray this new year brings you greater opportunities, divine favour, unlimited joy, and beautiful reasons to smile.\n\nHappy birthday Daniel!!! Keep thriving.",
+    signature: "With love, Mofe ❤️",
+    style: "pink"
   }
 ];
 
@@ -119,28 +227,72 @@ document.addEventListener("DOMContentLoaded", () => {
   setupFinalNote();
 });
 
+
 function renderVideos() {
   const grid = document.getElementById("video-grid");
   if (!grid) return;
+
   grid.innerHTML = videos.map((video, index) => `
     <button class="video-card" type="button" data-video="${index}" aria-label="Open ${escapeHTML(video.title)}">
-      <div class="video-thumb"><img src="${escapeAttr(video.thumbnail)}" alt=""><span class="play-button">▶</span></div>
-      <div class="video-info"><span class="mini-label">${escapeHTML(video.group)}</span><h3>${escapeHTML(video.title)}</h3><p>${escapeHTML(video.description)}</p></div>
-    </button>`).join("");
-  grid.querySelectorAll("[data-video]").forEach(button => button.addEventListener("click", () => {
-    const video = videos[Number(button.dataset.video)];
-    const content = document.getElementById("modal-content");
-    if (video.url) {
-      const safeUrl = video.url.startsWith("https://www.youtube.com/embed/") || video.url.startsWith("https://www.youtube-nocookie.com/embed/") ? video.url : "";
-      content.innerHTML = safeUrl
-        ? `<iframe class="modal-video" src="${escapeAttr(safeUrl)}" title="${escapeAttr(video.title)}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><h2>${escapeHTML(video.title)}</h2><p>${escapeHTML(video.description)}</p>`
-        : `<h2>${escapeHTML(video.title)}</h2><p>Add a valid YouTube embed URL to this video in <code>script.js</code>.</p>`;
-    } else {
-      content.innerHTML = `<img class="modal-image" src="${escapeAttr(video.thumbnail)}" alt="${escapeAttr(video.title)}"><h2>${escapeHTML(video.title)}</h2><p>${escapeHTML(video.description)}</p><p><strong>Video coming soon.</strong> Replace this item's empty <code>url</code> in <code>script.js</code> with a YouTube embed URL.</p>`;
-    }
-    openModal(document.getElementById("media-modal"));
-  }));
+      <div class="video-thumb">
+        <img src="${escapeAttr(video.thumbnail)}" alt="">
+        <span class="play-button">▶</span>
+      </div>
+      <div class="video-info">
+        <span class="mini-label">${escapeHTML(video.group)}</span>
+        <h3>${escapeHTML(video.title)}</h3>
+        <p>${escapeHTML(video.description)}</p>
+      </div>
+    </button>
+  `).join("");
+
+  grid.querySelectorAll("[data-video]").forEach(button =>
+    button.addEventListener("click", () => {
+      const video = videos[Number(button.dataset.video)];
+      const content = document.getElementById("modal-content");
+
+      if (video.url) {
+        const safeUrl =
+          video.url.startsWith("https://www.youtube.com/embed/") ||
+            video.url.startsWith("https://www.youtube-nocookie.com/embed/")
+            ? video.url
+            : "";
+
+        if (safeUrl) {
+          const separator = safeUrl.includes("?") ? "&" : "?";
+          const autoplayUrl = `${safeUrl}${separator}autoplay=1`;
+
+          content.innerHTML = `
+            <iframe
+              class="modal-video"
+              src="${escapeAttr(autoplayUrl)}"
+              title="${escapeAttr(video.title)}"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+            <h2>${escapeHTML(video.title)}</h2>
+            <p>${escapeHTML(video.description)}</p>
+          `;
+        } else {
+          content.innerHTML = `
+            <h2>${escapeHTML(video.title)}</h2>
+            <p>Add a valid YouTube embed URL to this video in <code>script.js</code>.</p>
+          `;
+        }
+      } else {
+        content.innerHTML = `
+          <img class="modal-image" src="${escapeAttr(video.thumbnail)}" alt="${escapeAttr(video.title)}">
+          <h2>${escapeHTML(video.title)}</h2>
+          <p>${escapeHTML(video.description)}</p>
+          <p><strong>Video coming soon.</strong> Replace this item's empty <code>url</code> in <code>script.js</code> with a YouTube embed URL.</p>
+        `;
+      }
+
+      openModal(document.getElementById("media-modal"));
+    })
+  );
 }
+
 
 function renderPhotos() {
   const grid = document.getElementById("photo-grid");
